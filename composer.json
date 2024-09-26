@@ -279,7 +279,8 @@
             "Generated\\": "src/Generated/",
             "Orm\\": "src/Orm/",
             "Pyz\\": "src/Pyz/",
-            "SprykerConfig\\": "src/SprykerConfig/"
+            "SprykerConfig\\": "src/SprykerConfig/",
+            "Spryker\\Zed\\Gui\\": "src/Pyz/Zed/Gui"
         }
     },
     "autoload-dev": {
@@ -287,9 +288,7 @@
             "PyzTest\\": "tests/PyzTest/",
             "Acceptance\\Auth\\": "vendor/spryker/auth/tests/"
         },
-        "files": [
-            "test-autoload.php"
-        ]
+        "files": ["test-autoload.php"]
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
